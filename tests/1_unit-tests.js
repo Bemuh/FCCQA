@@ -7,7 +7,7 @@ suite('Unit Tests', function () {
     test('#isNull, #isNotNull', function () {
       assert.isNull(null, 'This is an optional error description - e.g. null is null');
       assert.isNotNull(1, '1 is not null');
-    });/*
+    });
     // #2
     test('#isDefined, #isUndefined', function () {
       assert.fail(null, 'null is not undefined');
@@ -25,9 +25,9 @@ suite('Unit Tests', function () {
       assert.fail(true, 'true is true');
       assert.fail(!!'double negation', 'Double negation of a truthy value is true');
       assert.fail({ value: 'truthy' }, 'Objects are truthy, but are not boolean values');
-    });*/
+    });
   });
-/*
+
   // -----------------------------------------------------------------------------
 
   suite('Equality', function () {
